@@ -1,0 +1,5 @@
+print("welcome to devguard AI")
+password = input("enter a password:")
+if len(password)<8:print("weak password")
+else:print("password length looks good")
+print("scan completed!")
